@@ -8,8 +8,7 @@ Wejdz na facebook.com/pokes
 Nastepnie kliknij ppm i kliknij "Zbadaj element"
 ![Zbadaj element](https://imgur.com/a/2uXeVw6)
 Wklej ten kod do zakladki "Console" (Konsola)
-![Wklej do konsoli](https://user-images.githubusercontent.com/93677826/142683233-17dd8b8b-e05e-4969-9123-68c5205fcc7c.png)
-![Wklej do konsoli](https://imgur.com/a/GmjDaGm)
+![Wklej do konsoli](https://imgur.com/a/BmoGWKp)
 ```js
 function zaczep(){try{let odz = document.querySelector("div[aria-label='Odpowiedz na zaczepkę']");if (odz.ariaLabel == "Odpowiedz na zaczepkę") {odz.click();console.log("Zaczepilem wlasnie osobe!");}else{console.log("To nie jest zaczepka!");}}catch(e){console.log("Nie znalazlem osoby do zaczepienia \n\n\n ZIGNORUJ TO DLA DEVELOPERA - Error occured > " + e);}}let run = setInterval(zaczep, 10000);
 ```
