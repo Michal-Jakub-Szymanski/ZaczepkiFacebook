@@ -6,8 +6,11 @@ Skrypt do automatycznego odpowiadania na zaczepki (dziala na kompie)
 Wejdz na facebook.com/pokes
 
 Nastepnie kliknij ppm i kliknij "Zbadaj element"
+
 ![Zbadaj element](ZbadajElement.png)
+
 Wklej ten kod do zakladki "Console" (Konsola)
+
 ![Wklej do konsoli](Konsola.png)
 ![Wklej do konsoli](KodWKonsoli.png)
 ```js
